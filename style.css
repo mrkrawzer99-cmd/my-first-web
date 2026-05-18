@@ -1,0 +1,84 @@
+html{
+
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: #000;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.one nav ul li {
+    text-decoration: none;
+    
+    word-spacing: 5px;
+    display: inline-block;
+}
+.one nav ul li a{
+    color: rgb(235, 9, 148);
+    text-decoration: none;
+    padding: 5px;
+    transition: 1s;
+
+}
+.one h2{
+    padding-left: 8%;
+color: rgb(235, 9, 148);
+letter-spacing: 4px;
+}
+.one nav .sub{
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 5%;
+    color: rgb(255, 255, 255);
+    border: groove red;
+    transition: 1s;
+
+}
+
+.one nav ul li a:hover{
+    font-size: 20px;
+    color: rgb(238, 4, 226);
+}
+.one nav .sub:hover{
+background: red;
+
+}
+body span {
+    color: #ff0000;
+}
+.nax{
+    display: flex;
+    justify-content: space-between;
+}
+.nax div {
+    color: white;
+    padding-left:8%;
+}
+.nax a img {
+    width: 60%;
+    transition: 1s;
+    justify-self: flex-end;
+    
+}
+.nax a img:hover{
+    transform: translateX(5px);
+    width: 65%;
+}
+.nax div ul li {
+    width: 40px;
+}
+.nax div ul li a img{ 
+        display: inline-block;
+    padding: 5px;
+    
+    
+}
+.he::after{
+    content: ("");
+    
+}
+
